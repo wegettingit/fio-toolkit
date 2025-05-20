@@ -1,0 +1,12 @@
+[global]
+ioengine=libaio
+direct=1
+size=512m
+runtime=30
+time_based
+group_reporting
+
+[seq-read]
+bs=128k
+rw=read
+add sequential read job file
